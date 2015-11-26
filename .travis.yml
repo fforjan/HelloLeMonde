@@ -6,4 +6,4 @@ install:
    - dnvm upgrade
    - dnu restore
 script:
-   - dnx ~/HelloLeMonde/project.json HelloLeMonde -parallel none
+   - dnx HelloLeMonde -parallel none
