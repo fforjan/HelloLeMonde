@@ -1,5 +1,4 @@
 using System;
-using System.Globalization;
 
 namespace HelloLeMonde
 {
@@ -7,8 +6,7 @@ namespace HelloLeMonde
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello fred");
-            Console.Read();
+            Console.WriteLine(string.Format("{0:G8}", Math.PI));
         }
         
         public static void Random()
